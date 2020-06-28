@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+.header{
+    background-color: #0DCBAF;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header h2{
+    color : black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer{
+    background-color: #0DCBAF;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer a{
+    color:black;
 }
-
-.App-link {
-  color: #61dafb;
+.copy{
+    color : green;
+    font-size: 1.1em;
+    padding-bottom : 0.6em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ucsy_icon{
+    color : black;
 }
