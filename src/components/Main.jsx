@@ -40,7 +40,7 @@ class Main extends React.Component{
 
         const IndividualInfo = ({match}) => {
             return(
-                <EachInfo single={this.state.single.filter((person) => person.id == parseInt(match.params.id, 10))[0]}/>
+                <EachInfo single={this.state.single.filter((person) => person.id === parseInt(match.params.id, 10))[0]}/>
             )
         }
 
